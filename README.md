@@ -99,4 +99,4 @@ Pull requests are welcome. If you figure out how to plug in real prices from any
 
 ---
 
-*built with ☕ and a lot of googling*
+*built for a cause by a thoughtful budding developer*
