@@ -9,7 +9,7 @@ CORS(app)  # allow frontend to talk to backend
 # ── Grocery item database ──────────────────────────────────────────────
 
 
-ITEMS = ITEMS = [
+ITEMS = [
     {"id": 1, "name": "Amul Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 36},
     {"id": 2, "name": "Amul Butter 100g", "icon": "🧈", "category": "dairy", "base_price": 60},
     {"id": 3, "name": "Curd 400g", "icon": "🫙", "category": "dairy", "base_price": 45},
@@ -148,7 +148,7 @@ ITEMS = ITEMS = [
 {"id": 97, "name": "Toilet Paper Roll", "icon": "🧻", "category": "cleaning", "base_price": 60},
 {"id": 98, "name": "Floor Cleaner 1L", "icon": "🧴", "category": "cleaning", "base_price": 150},
 {"id": 99, "name": "Garbage Bags Pack", "icon": "🗑️", "category": "cleaning", "base_price": 70},
-{"id": 100, "name": "Air Freshener Spray", "icon": "🌸", "category": "cleaning", "base_price": 180}]
+{"id": 100, "name": "Air Freshener Spray", "icon": "🌸", "category": "cleaning", "base_price": 180}]    
 
 PLATFORMS = [
     {
