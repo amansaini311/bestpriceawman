@@ -79,76 +79,83 @@ ITEMS = [
     {"id": 47, "name": "Amul Chocolate Brownie Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 190},
     {"id": 48, "name": "Amul Rajbhog Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 40},
 
-{"id": 49, "name": "Cornetto Chocolate Cone", "icon": "🍦", "category": "icecream", "base_price": 40},
-{"id": 50, "name": "Cornetto Strawberry Cone", "icon": "🍦", "category": "icecream", "base_price": 40},
-{"id": 51, "name": "Cornetto Butterscotch Cone", "icon": "🍦", "category": "icecream", "base_price": 42},
+    {"id": 49, "name": "Cornetto Chocolate Cone", "icon": "🍦", "category": "icecream", "base_price": 40},
+    {"id": 50, "name": "Cornetto Strawberry Cone", "icon": "🍦", "category": "icecream", "base_price": 40},
+    {"id": 51, "name": "Cornetto Butterscotch Cone", "icon": "🍦", "category": "icecream", "base_price": 42},
 
-{"id": 52, "name": "Magnum Chocolate Ice Cream Bar", "icon": "🍦", "category": "icecream", "base_price": 80},
+    {"id": 52, "name": "Magnum Chocolate Ice Cream Bar", "icon": "🍦", "category": "icecream", "base_price": 80},
 
-{"id": 53, "name": "Magnum Almond Ice Cream Bar", "icon": "🍦", "category": "icecream", "base_price": 85},
+    {"id": 53, "name": "Magnum Almond Ice Cream Bar", "icon": "🍦", "category": "icecream", "base_price": 85},
 
-{"id": 54, "name": "Havmor Belgian Chocolate Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 275},
-{"id": 55, "name": "Havmor Butterscotch Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 170},
+    {"id": 54, "name": "Havmor Belgian Chocolate Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 275},
+    {"id": 55, "name": "Havmor Butterscotch Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 170},
 
-{"id": 56, "name": "Kwality Walls Oreo Ice Cream Tub", "icon": "🍦", "category": "icecream", "base_price": 275},
-{"id": 57, "name": "Kwality Walls Chocolate Sensation Tub", "icon": "🍦", "category": "icecream", "base_price": 210},
+    {"id": 56, "name": "Kwality Walls Oreo Ice Cream Tub", "icon": "🍦", "category": "icecream", "base_price": 275},
+    {"id": 57, "name": "Kwality Walls Chocolate Sensation Tub", "icon": "🍦", "category": "icecream", "base_price": 210},
 
-{"id": 58, "name": "Kulfi Ice Cream Stick", "icon": "🍦", "category": "icecream", "base_price": 35},
-{"id": 59, "name": "Mango Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 35},
+    {"id": 58, "name": "Kulfi Ice Cream Stick", "icon": "🍦", "category": "icecream", "base_price": 35},
+    {"id": 59, "name": "Mango Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 35},
 
-{"id": 60, "name": "Strawberry Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 35},
+    {"id": 60, "name": "Strawberry Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 35},
 
-{"id": 60, "name": "Strawberry Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 35}
+    {"id": 60, "name": "Strawberry Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 35}
 
 # MORE GROCERY ITEMS
 
-{"id": 61, "name": "Sugar 1kg", "icon": "🍬", "category": "staples", "base_price": 45},
-{"id": 62, "name": "Brown Sugar 500g", "icon": "🍬", "category": "staples", "base_price": 60},
-{"id": 63, "name": "Moong Dal 500g", "icon": "🫘", "category": "staples", "base_price": 85},
-{"id": 64, "name": "Masoor Dal 500g", "icon": "🫘", "category": "staples", "base_price": 75},
-{"id": 65, "name": "Chana Dal 500g", "icon": "🫘", "category": "staples", "base_price": 70},
-{"id": 66, "name": "Besan 500g", "icon": "🌾", "category": "staples", "base_price": 70},
-{"id": 67, "name": "Poha 500g", "icon": "🍚", "category": "staples", "base_price": 55},
-{"id": 68, "name": "Sooji 500g", "icon": "🌾", "category": "staples", "base_price": 50},
-{"id": 69, "name": "Corn Flour 200g", "icon": "🌽", "category": "staples", "base_price": 45},
-{"id": 70, "name": "Oats 500g", "icon": "🥣", "category": "staples", "base_price": 95},
+    {"id": 61, "name": "Sugar 1kg", "icon": "🍬", "category": "staples", "base_price": 45},
+    {"id": 62, "name": "Brown Sugar 500g", "icon": "🍬", "category": "staples", "base_price": 60},
+    {"id": 63, "name": "Moong Dal 500g", "icon": "🫘", "category": "staples", "base_price": 85},
+    {"id": 64, "name": "Masoor Dal 500g", "icon": "🫘", "category": "staples", "base_price": 75},
+    {"id": 65, "name": "Chana Dal 500g", "icon": "🫘", "category": "staples", "base_price": 70},
+    {"id": 66, "name": "Besan 500g", "icon": "🌾", "category": "staples", "base_price": 70},
+    {"id": 67, "name": "Poha 500g", "icon": "🍚", "category": "staples", "base_price": 55},
+    {"id": 68, "name": "Sooji 500g", "icon": "🌾", "category": "staples", "base_price": 50},
+    {"id": 69, "name": "Corn Flour 200g", "icon": "🌽", "category": "staples", "base_price": 45},
+    {"id": 70, "name": "Oats 500g", "icon": "🥣", "category": "staples", "base_price": 95},
 
-{"id": 71, "name": "Peanut Oil 1L", "icon": "🫙", "category": "staples", "base_price": 175},
-{"id": 72, "name": "Mustard Oil 1L", "icon": "🫙", "category": "staples", "base_price": 165},
-{"id": 73, "name": "Ghee 500ml", "icon": "🧈", "category": "staples", "base_price": 310},
-{"id": 74, "name": "Honey 250g", "icon": "🍯", "category": "staples", "base_price": 125},
-{"id": 75, "name": "Tomato Ketchup 500g", "icon": "🍅", "category": "staples", "base_price": 110},
+    {"id": 71, "name": "Peanut Oil 1L", "icon": "🫙", "category": "staples", "base_price": 175},
+    {"id": 72, "name": "Mustard Oil 1L", "icon": "🫙", "category": "staples", "base_price": 165},
+    {"id": 73, "name": "Ghee 500ml", "icon": "🧈", "category": "staples", "base_price": 310},
+    {"id": 74, "name": "Honey 250g", "icon": "🍯", "category": "staples", "base_price": 125},
+    {"id": 75, "name": "Tomato Ketchup 500g", "icon": "🍅", "category": "staples", "base_price": 110},
 
-{"id": 76, "name": "Coriander Powder 200g", "icon": "🌿", "category": "spices", "base_price": 60},
-{"id": 77, "name": "Turmeric Powder 200g", "icon": "🌿", "category": "spices", "base_price": 55},
-{"id": 78, "name": "Red Chilli Powder 200g", "icon": "🌶️", "category": "spices", "base_price": 70},
-{"id": 79, "name": "Garam Masala 100g", "icon": "🌿", "category": "spices", "base_price": 80},
-{"id": 80, "name": "Black Pepper 50g", "icon": "🌶️", "category": "spices", "base_price": 95},
+    {"id": 76, "name": "Coriander Powder 200g", "icon": "🌿", "category": "spices", "base_price": 60},
+    {"id": 77, "name": "Turmeric Powder 200g", "icon": "🌿", "category": "spices", "base_price": 55},
+    {"id": 78, "name": "Red Chilli Powder 200g", "icon": "🌶️", "category": "spices", "base_price": 70},
+    {"id": 79, "name": "Garam Masala 100g", "icon": "🌿", "category": "spices", "base_price": 80},
+    {"id": 80, "name": "Black Pepper 50g", "icon": "🌶️", "category": "spices", "base_price": 95},
 
-{"id": 81, "name": "Garlic 250g", "icon": "🧄", "category": "produce", "base_price": 35},
-{"id": 82, "name": "Ginger 250g", "icon": "🫚", "category": "produce", "base_price": 30},
-{"id": 83, "name": "Lemon 4 pcs", "icon": "🍋", "category": "produce", "base_price": 28},
-{"id": 84, "name": "Cauliflower 1 pc", "icon": "🥦", "category": "produce", "base_price": 45},
-{"id": 85, "name": "Cabbage 1 pc", "icon": "🥬", "category": "produce", "base_price": 40},
+    {"id": 81, "name": "Garlic 250g", "icon": "🧄", "category": "produce", "base_price": 35},
+    {"id": 82, "name": "Ginger 250g", "icon": "🫚", "category": "produce", "base_price": 30},
+    {"id": 83, "name": "Lemon 4 pcs", "icon": "🍋", "category": "produce", "base_price": 28},
+    {"id": 84, "name": "Cauliflower 1 pc", "icon": "🥦", "category": "produce", "base_price": 45},
+    {"id": 85, "name": "Cabbage 1 pc", "icon": "🥬", "category": "produce", "base_price": 40},
 
-{"id": 86, "name": "Orange 4 pcs", "icon": "🍊", "category": "produce", "base_price": 65},
-{"id": 87, "name": "Pomegranate 1 pc", "icon": "🍎", "category": "produce", "base_price": 90},
-{"id": 88, "name": "Papaya 1 pc", "icon": "🍈", "category": "produce", "base_price": 70},
+    {"id": 86, "name": "Orange 4 pcs", "icon": "🍊", "category": "produce", "base_price": 65},
+    {"id": 87, "name": "Pomegranate 1 pc", "icon": "🍎", "category": "produce", "base_price": 90},
+    {"id": 88, "name": "Papaya 1 pc", "icon": "🍈", "category": "produce", "base_price": 70},
 
-{"id": 89, "name": "Dairy Milk Chocolate 50g", "icon": "🍫", "category": "snacks", "base_price": 40},
-{"id": 90, "name": "Snickers Bar", "icon": "🍫", "category": "snacks", "base_price": 55},
-{"id": 91, "name": "Munch Chocolate", "icon": "🍫", "category": "snacks", "base_price": 25},
+    {"id": 89, "name": "Dairy Milk Chocolate 50g", "icon": "🍫", "category": "snacks", "base_price": 40},
+    {"id": 90, "name": "Snickers Bar", "icon": "🍫", "category": "snacks", "base_price": 55},
+    {"id": 91, "name": "Munch Chocolate", "icon": "🍫", "category": "snacks", "base_price": 25},
 
-{"id": 92, "name": "Sprite 750ml", "icon": "🥤", "category": "beverages", "base_price": 45},
-{"id": 93, "name": "Pepsi 750ml", "icon": "🥤", "category": "beverages", "base_price": 45},
-{"id": 94, "name": "Frooti Mango Drink 1L", "icon": "🧃", "category": "beverages", "base_price": 65},
-{"id": 95, "name": "Real Orange Juice 1L", "icon": "🧃", "category": "beverages", "base_price": 110},
+    {"id": 92, "name": "Sprite 750ml", "icon": "🥤", "category": "beverages", "base_price": 45},
+    {"id": 93, "name": "Pepsi 750ml", "icon": "🥤", "category": "beverages", "base_price": 45},
+    {"id": 94, "name": "Frooti Mango Drink 1L", "icon": "🧃", "category": "beverages", "base_price": 65},
+    {"id": 95, "name": "Real Orange Juice 1L", "icon": "🧃", "category": "beverages", "base_price": 110},
 
-{"id": 96, "name": "Handwash 250ml", "icon": "🧴", "category": "cleaning", "base_price": 85},
-{"id": 97, "name": "Toilet Paper Roll", "icon": "🧻", "category": "cleaning", "base_price": 60},
-{"id": 98, "name": "Floor Cleaner 1L", "icon": "🧴", "category": "cleaning", "base_price": 150},
-{"id": 99, "name": "Garbage Bags Pack", "icon": "🗑️", "category": "cleaning", "base_price": 70},
-{"id": 100, "name": "Air Freshener Spray", "icon": "🌸", "category": "cleaning", "base_price": 180}]    
+
+    {"id": 96, "name": "Handwash 250ml", "icon": "🧴", "category": "cleaning", "base_price": 85},
+    {"id": 97, "name": "Toilet Paper Roll", "icon": "🧻", "category": "cleaning", "base_price": 60},
+    {"id": 98, "name": "Floor Cleaner 1L", "icon": "🧴", "category": "cleaning", "base_price": 150},
+    {"id": 99, "name": "Garbage Bags Pack", "icon": "🗑️", "category": "cleaning", "base_price": 70},
+    {"id": 100, "name": "Air Freshener Spray", "icon": "🌸", "category": "cleaning", "base_price": 180}]
+
+    {"id": 96, "name": "Handwash 250ml", "icon": "🧴", "category": "cleaning", "base_price": 85},
+    {"id": 97, "name": "Toilet Paper Roll", "icon": "🧻", "category": "cleaning", "base_price": 60},
+    {"id": 98, "name": "Floor Cleaner 1L", "icon": "🧴", "category": "cleaning", "base_price": 150},
+    {"id": 99, "name": "Garbage Bags Pack", "icon": "🗑️", "category": "cleaning", "base_price": 70},
+    {"id": 100, "name": "Air Freshener Spray", "icon": "🌸", "category": "cleaning", "base_price": 180}]    
 
 PLATFORMS = [
     {
