@@ -98,8 +98,6 @@ ITEMS = [
 
     {"id": 60, "name": "Strawberry Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 35},
 
-    {"id": 60, "name": "Strawberry Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 35}
-
 # MORE GROCERY ITEMS
 
     {"id": 61, "name": "Sugar 1kg", "icon": "🍬", "category": "staples", "base_price": 45},
