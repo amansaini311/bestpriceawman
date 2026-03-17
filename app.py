@@ -7,42 +7,127 @@ app = Flask(__name__)
 CORS(app)  # allow frontend to talk to backend
 
 # ── Grocery item database ──────────────────────────────────────────────
-ITEMS = [
-    {"id": 1,  "name": "Amul Milk 500ml",       "icon": "🥛", "category": "dairy",     "base_price": 28},
-    {"id": 2,  "name": "Amul Butter 100g",       "icon": "🧈", "category": "dairy",     "base_price": 56},
-    {"id": 3,  "name": "Curd 400g",              "icon": "🫙", "category": "dairy",     "base_price": 42},
-    {"id": 4,  "name": "Paneer 200g",            "icon": "🧀", "category": "dairy",     "base_price": 88},
-    {"id": 5,  "name": "Amul Cheese Slices",     "icon": "🧀", "category": "dairy",     "base_price": 115},
-    {"id": 6,  "name": "Fresh Cream 200ml",      "icon": "🥛", "category": "dairy",     "base_price": 66},
-    {"id": 7,  "name": "Tomatoes 500g",          "icon": "🍅", "category": "produce",   "base_price": 33},
-    {"id": 8,  "name": "Onions 1kg",             "icon": "🧅", "category": "produce",   "base_price": 38},
-    {"id": 9,  "name": "Potatoes 1kg",           "icon": "🥔", "category": "produce",   "base_price": 35},
-    {"id": 10, "name": "Spinach 250g",           "icon": "🥬", "category": "produce",   "base_price": 28},
-    {"id": 11, "name": "Bananas 6 pcs",          "icon": "🍌", "category": "produce",   "base_price": 46},
-    {"id": 12, "name": "Apples 4 pcs",           "icon": "🍎", "category": "produce",   "base_price": 98},
-    {"id": 13, "name": "Capsicum 2 pcs",         "icon": "🫑", "category": "produce",   "base_price": 30},
-    {"id": 14, "name": "Carrots 500g",           "icon": "🥕", "category": "produce",   "base_price": 28},
-    {"id": 15, "name": "Basmati Rice 1kg",       "icon": "🍚", "category": "staples",   "base_price": 118},
-    {"id": 16, "name": "Wheat Atta 5kg",         "icon": "🌾", "category": "staples",   "base_price": 255},
-    {"id": 17, "name": "Tata Salt 1kg",          "icon": "🧂", "category": "staples",   "base_price": 26},
-    {"id": 18, "name": "Toor Dal 500g",          "icon": "🫘", "category": "staples",   "base_price": 74},
-    {"id": 19, "name": "Sunflower Oil 1L",       "icon": "🫙", "category": "staples",   "base_price": 148},
-    {"id": 20, "name": "Maggi Noodles 4pk",      "icon": "🍜", "category": "staples",   "base_price": 74},
-    {"id": 21, "name": "Eggs 12 pcs",            "icon": "🥚", "category": "staples",   "base_price": 90},
-    {"id": 22, "name": "Lays Classic 50g",       "icon": "🥔", "category": "snacks",    "base_price": 20},
-    {"id": 23, "name": "Parle-G 200g",           "icon": "🍪", "category": "snacks",    "base_price": 20},
-    {"id": 24, "name": "KitKat 4-finger",        "icon": "🍫", "category": "snacks",    "base_price": 55},
-    {"id": 25, "name": "Kurkure 90g",            "icon": "🌽", "category": "snacks",    "base_price": 30},
-    {"id": 26, "name": "Britannia Marie",        "icon": "🍪", "category": "snacks",    "base_price": 40},
-    {"id": 27, "name": "Nescafé 50g",            "icon": "☕", "category": "beverages", "base_price": 132},
-    {"id": 28, "name": "Tata Tea 250g",          "icon": "🍵", "category": "beverages", "base_price": 96},
-    {"id": 29, "name": "Tropicana 1L",           "icon": "🧃", "category": "beverages", "base_price": 112},
-    {"id": 30, "name": "Red Bull 250ml",         "icon": "🥤", "category": "beverages", "base_price": 115},
-    {"id": 31, "name": "Surf Excel 500g",        "icon": "🧺", "category": "cleaning",  "base_price": 108},
-    {"id": 32, "name": "Vim Dishwash 500g",      "icon": "🍽️", "category": "cleaning",  "base_price": 65},
-    {"id": 33, "name": "Dettol Soap 75g",        "icon": "🧼", "category": "cleaning",  "base_price": 48},
-    {"id": 34, "name": "Harpic 500ml",           "icon": "🚿", "category": "cleaning",  "base_price": 125},
-]
+ITEMS = ITEMS = [
+    {"id": 1, "name": "Amul Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 36},
+    {"id": 2, "name": "Amul Butter 100g", "icon": "🧈", "category": "dairy", "base_price": 60},
+    {"id": 3, "name": "Curd 400g", "icon": "🫙", "category": "dairy", "base_price": 45},
+    {"id": 4, "name": "Paneer 200g", "icon": "🧀", "category": "dairy", "base_price": 95},
+    {"id": 5, "name": "Amul Cheese Slices", "icon": "🧀", "category": "dairy", "base_price": 125},
+    {"id": 6, "name": "Fresh Cream 200ml", "icon": "🥛", "category": "dairy", "base_price": 70},
+
+    {"id": 7, "name": "Tomatoes 500g", "icon": "🍅", "category": "produce", "base_price": 35},
+    {"id": 8, "name": "Onions 1kg", "icon": "🧅", "category": "produce", "base_price": 40},
+    {"id": 9, "name": "Potatoes 1kg", "icon": "🥔", "category": "produce", "base_price": 38},
+    {"id": 10, "name": "Spinach 250g", "icon": "🥬", "category": "produce", "base_price": 30},
+    {"id": 11, "name": "Bananas 6 pcs", "icon": "🍌", "category": "produce", "base_price": 50},
+    {"id": 12, "name": "Apples 4 pcs", "icon": "🍎", "category": "produce", "base_price": 110},
+    {"id": 13, "name": "Capsicum 2 pcs", "icon": "🫑", "category": "produce", "base_price": 35},
+    {"id": 14, "name": "Carrots 500g", "icon": "🥕", "category": "produce", "base_price": 32},
+    {"id": 15, "name": "Cucumber 500g", "icon": "🥒", "category": "produce", "base_price": 28},
+    {"id": 16, "name": "Green Chillies 100g", "icon": "🌶️", "category": "produce", "base_price": 12},
+
+    {"id": 17, "name": "Basmati Rice 1kg", "icon": "🍚", "category": "staples", "base_price": 120},
+    {"id": 18, "name": "Wheat Atta 5kg", "icon": "🌾", "category": "staples", "base_price": 265},
+    {"id": 19, "name": "Tata Salt 1kg", "icon": "🧂", "category": "staples", "base_price": 28},
+    {"id": 20, "name": "Toor Dal 500g", "icon": "🫘", "category": "staples", "base_price": 80},
+    {"id": 21, "name": "Sunflower Oil 1L", "icon": "🫙", "category": "staples", "base_price": 155},
+    {"id": 22, "name": "Maggi Noodles 4pk", "icon": "🍜", "category": "staples", "base_price": 80},
+    {"id": 23, "name": "Eggs 12 pcs", "icon": "🥚", "category": "staples", "base_price": 95},
+    {"id": 24, "name": "Brown Bread", "icon": "🍞", "category": "staples", "base_price": 45},
+    {"id": 25, "name": "Peanut Butter 340g", "icon": "🥜", "category": "staples", "base_price": 180},
+
+    {"id": 26, "name": "Lays Classic 50g", "icon": "🥔", "category": "snacks", "base_price": 20},
+    {"id": 27, "name": "Parle-G 200g", "icon": "🍪", "category": "snacks", "base_price": 22},
+    {"id": 28, "name": "KitKat 4-finger", "icon": "🍫", "category": "snacks", "base_price": 55},
+    {"id": 29, "name": "Kurkure 90g", "icon": "🌽", "category": "snacks", "base_price": 30},
+    {"id": 30, "name": "Britannia Marie", "icon": "🍪", "category": "snacks", "base_price": 42},
+    {"id": 31, "name": "Good Day Biscuits", "icon": "🍪", "category": "snacks", "base_price": 35},
+    {"id": 32, "name": "Oreo Cookies", "icon": "🍪", "category": "snacks", "base_price": 40},
+
+    {"id": 33, "name": "Nescafe Coffee 50g", "icon": "☕", "category": "beverages", "base_price": 135},
+    {"id": 34, "name": "Tata Tea 250g", "icon": "🍵", "category": "beverages", "base_price": 100},
+    {"id": 35, "name": "Tropicana Juice 1L", "icon": "🧃", "category": "beverages", "base_price": 115},
+    {"id": 36, "name": "Red Bull 250ml", "icon": "🥤", "category": "beverages", "base_price": 120},
+    {"id": 37, "name": "Coca-Cola 750ml", "icon": "🥤", "category": "beverages", "base_price": 45},
+    {"id": 38, "name": "Bisleri Water 1L", "icon": "💧", "category": "beverages", "base_price": 20},
+
+    {"id": 39, "name": "Surf Excel 500g", "icon": "🧺", "category": "cleaning", "base_price": 110},
+    {"id": 40, "name": "Vim Dishwash 500g", "icon": "🍽️", "category": "cleaning", "base_price": 70},
+    {"id": 41, "name": "Dettol Soap 75g", "icon": "🧼", "category": "cleaning", "base_price": 50},
+    {"id": 42, "name": "Harpic 500ml", "icon": "🚿", "category": "cleaning", "base_price": 130},
+    {"id": 43, "name": "Colgate Toothpaste 150g", "icon": "🪥", "category": "cleaning", "base_price": 95},
+    {"id": 44, "name": "Head & Shoulders Shampoo 180ml", "icon": "🧴", "category": "cleaning", "base_price": 160},
+    {"id": 45, "name": "Amul Vanilla Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 180},
+    {"id": 46, "name": "Amul Butterscotch Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 185},
+
+    {"id": 47, "name": "Amul Chocolate Brownie Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 190},
+    {"id": 48, "name": "Amul Rajbhog Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 40},
+
+{"id": 49, "name": "Cornetto Chocolate Cone", "icon": "🍦", "category": "icecream", "base_price": 40},
+{"id": 50, "name": "Cornetto Strawberry Cone", "icon": "🍦", "category": "icecream", "base_price": 40},
+{"id": 51, "name": "Cornetto Butterscotch Cone", "icon": "🍦", "category": "icecream", "base_price": 42},
+
+{"id": 52, "name": "Magnum Chocolate Ice Cream Bar", "icon": "🍦", "category": "icecream", "base_price": 80},
+{"id": 53, "name": "Magnum Almond Ice Cream Bar", "icon": "🍦", "category": "icecream", "base_price": 85},
+
+{"id": 54, "name": "Havmor Belgian Chocolate Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 275},
+{"id": 55, "name": "Havmor Butterscotch Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 170},
+
+{"id": 56, "name": "Kwality Walls Oreo Ice Cream Tub", "icon": "🍦", "category": "icecream", "base_price": 275},
+{"id": 57, "name": "Kwality Walls Chocolate Sensation Tub", "icon": "🍦", "category": "icecream", "base_price": 210},
+
+{"id": 58, "name": "Kulfi Ice Cream Stick", "icon": "🍦", "category": "icecream", "base_price": 35},
+{"id": 59, "name": "Mango Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 35},
+{"id": 60, "name": "Strawberry Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 35}
+# MORE GROCERY ITEMS
+
+{"id": 61, "name": "Sugar 1kg", "icon": "🍬", "category": "staples", "base_price": 45},
+{"id": 62, "name": "Brown Sugar 500g", "icon": "🍬", "category": "staples", "base_price": 60},
+{"id": 63, "name": "Moong Dal 500g", "icon": "🫘", "category": "staples", "base_price": 85},
+{"id": 64, "name": "Masoor Dal 500g", "icon": "🫘", "category": "staples", "base_price": 75},
+{"id": 65, "name": "Chana Dal 500g", "icon": "🫘", "category": "staples", "base_price": 70},
+{"id": 66, "name": "Besan 500g", "icon": "🌾", "category": "staples", "base_price": 70},
+{"id": 67, "name": "Poha 500g", "icon": "🍚", "category": "staples", "base_price": 55},
+{"id": 68, "name": "Sooji 500g", "icon": "🌾", "category": "staples", "base_price": 50},
+{"id": 69, "name": "Corn Flour 200g", "icon": "🌽", "category": "staples", "base_price": 45},
+{"id": 70, "name": "Oats 500g", "icon": "🥣", "category": "staples", "base_price": 95},
+
+{"id": 71, "name": "Peanut Oil 1L", "icon": "🫙", "category": "staples", "base_price": 175},
+{"id": 72, "name": "Mustard Oil 1L", "icon": "🫙", "category": "staples", "base_price": 165},
+{"id": 73, "name": "Ghee 500ml", "icon": "🧈", "category": "staples", "base_price": 310},
+{"id": 74, "name": "Honey 250g", "icon": "🍯", "category": "staples", "base_price": 125},
+{"id": 75, "name": "Tomato Ketchup 500g", "icon": "🍅", "category": "staples", "base_price": 110},
+
+{"id": 76, "name": "Coriander Powder 200g", "icon": "🌿", "category": "spices", "base_price": 60},
+{"id": 77, "name": "Turmeric Powder 200g", "icon": "🌿", "category": "spices", "base_price": 55},
+{"id": 78, "name": "Red Chilli Powder 200g", "icon": "🌶️", "category": "spices", "base_price": 70},
+{"id": 79, "name": "Garam Masala 100g", "icon": "🌿", "category": "spices", "base_price": 80},
+{"id": 80, "name": "Black Pepper 50g", "icon": "🌶️", "category": "spices", "base_price": 95},
+
+{"id": 81, "name": "Garlic 250g", "icon": "🧄", "category": "produce", "base_price": 35},
+{"id": 82, "name": "Ginger 250g", "icon": "🫚", "category": "produce", "base_price": 30},
+{"id": 83, "name": "Lemon 4 pcs", "icon": "🍋", "category": "produce", "base_price": 28},
+{"id": 84, "name": "Cauliflower 1 pc", "icon": "🥦", "category": "produce", "base_price": 45},
+{"id": 85, "name": "Cabbage 1 pc", "icon": "🥬", "category": "produce", "base_price": 40},
+
+{"id": 86, "name": "Orange 4 pcs", "icon": "🍊", "category": "produce", "base_price": 65},
+{"id": 87, "name": "Pomegranate 1 pc", "icon": "🍎", "category": "produce", "base_price": 90},
+{"id": 88, "name": "Papaya 1 pc", "icon": "🍈", "category": "produce", "base_price": 70},
+
+{"id": 89, "name": "Dairy Milk Chocolate 50g", "icon": "🍫", "category": "snacks", "base_price": 40},
+{"id": 90, "name": "Snickers Bar", "icon": "🍫", "category": "snacks", "base_price": 55},
+{"id": 91, "name": "Munch Chocolate", "icon": "🍫", "category": "snacks", "base_price": 25},
+
+{"id": 92, "name": "Sprite 750ml", "icon": "🥤", "category": "beverages", "base_price": 45},
+{"id": 93, "name": "Pepsi 750ml", "icon": "🥤", "category": "beverages", "base_price": 45},
+{"id": 94, "name": "Frooti Mango Drink 1L", "icon": "🧃", "category": "beverages", "base_price": 65},
+{"id": 95, "name": "Real Orange Juice 1L", "icon": "🧃", "category": "beverages", "base_price": 110},
+
+{"id": 96, "name": "Handwash 250ml", "icon": "🧴", "category": "cleaning", "base_price": 85},
+{"id": 97, "name": "Toilet Paper Roll", "icon": "🧻", "category": "cleaning", "base_price": 60},
+{"id": 98, "name": "Floor Cleaner 1L", "icon": "🧴", "category": "cleaning", "base_price": 150},
+{"id": 99, "name": "Garbage Bags Pack", "icon": "🗑️", "category": "cleaning", "base_price": 70},
+{"id": 100, "name": "Air Freshener Spray", "icon": "🌸", "category": "cleaning", "base_price": 180}]
 
 PLATFORMS = [
     {
