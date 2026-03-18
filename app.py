@@ -101,7 +101,7 @@ ITEMS = [
 # MORE GROCERY ITEMS
 
     {"id": 61, "name": "Sugar 1kg", "icon": "🍬", "category": "staples", "base_price": 45},
-    {"id": 62, "name": "Brown Sugar 500g", "icon": "🍬", "category": "staples", "base_price": 60},
+    {"id": 62, "name": "Brown sugar 500g", "icon": "🍬", "category": "staples", "base_price": 60},
     {"id": 63, "name": "Moong Dal 500g", "icon": "🫘", "category": "staples", "base_price": 85},
     {"id": 64, "name": "Masoor Dal 500g", "icon": "🫘", "category": "staples", "base_price": 75},
     {"id": 65, "name": "Chana Dal 500g", "icon": "🫘", "category": "staples", "base_price": 70},
