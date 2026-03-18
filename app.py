@@ -40,7 +40,7 @@ ITEMS = [
 
     {"id": 26, "name": "Lays Classic 50g", "icon": "🥔", "category": "snacks", "base_price": 20},
     {"id": 27, "name": "Parle-G 200g", "icon": "🍪", "category": "snacks", "base_price": 22},
-    {"id": 28, "name": "KitKat 4-finger", "icon": "🍫", "category": "snacks", "base_price": 55},
+    {"id": 28, "name": "KitKat 4-finger", "icon": "🍫", "category": "chocolate", "base_price": 55},
     {"id": 29, "name": "Kurkure 90g", "icon": "🌽", "category": "snacks", "base_price": 30},
     {"id": 30, "name": "Britannia Marie", "icon": "🍪", "category": "snacks", "base_price": 42},
     {"id": 31, "name": "Good Day Biscuits", "icon": "🍪", "category": "snacks", "base_price": 35},
@@ -133,9 +133,9 @@ ITEMS = [
     {"id": 87, "name": "Pomegranate 1 pc", "icon": "🍎", "category": "produce", "base_price": 90},
     {"id": 88, "name": "Papaya 1 pc", "icon": "🍈", "category": "produce", "base_price": 70},
 
-    {"id": 89, "name": "Dairy Milk Chocolate 50g", "icon": "🍫", "category": "snacks", "base_price": 40},
-    {"id": 90, "name": "Snickers Bar", "icon": "🍫", "category": "snacks", "base_price": 55},
-    {"id": 91, "name": "Munch Chocolate", "icon": "🍫", "category": "snacks", "base_price": 25},
+    {"id": 89, "name": "Dairy Milk Chocolate 50g", "icon": "🍫", "category": "chocolate", "base_price": 40},
+    {"id": 90, "name": "Snickers Bar", "icon": "🍫", "category": "chocolate", "base_price": 55},
+    {"id": 91, "name": "Munch Max", "icon": "🍫", "category": "chocolate", "base_price": 20},
 
     {"id": 92, "name": "Sprite 750ml", "icon": "🥤", "category": "beverages", "base_price": 45},
     {"id": 93, "name": "Pepsi 750ml", "icon": "🥤", "category": "beverages", "base_price": 45},
