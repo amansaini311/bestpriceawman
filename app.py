@@ -73,18 +73,8 @@ ITEMS = [
     {"id": 52, "name": "Magnum Chocolate Ice Cream Bar", "icon": "🍦", "category": "icecream", "base_price": 80},
 
     {"id": 44, "name": "Head & Shoulders Shampoo 180ml", "icon": "🧴", "category": "cleaning", "base_price": 160},
-    {"id": 45, "name": "Amul Vanilla Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 180},
-    {"id": 46, "name": "Amul Butterscotch Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 185},
 
-    {"id": 47, "name": "Amul Chocolate Brownie Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 190},
-    {"id": 48, "name": "Amul Rajbhog Ice Cream Cup", "icon": "🍦", "category": "icecream", "base_price": 40},
-
-    {"id": 49, "name": "Cornetto Chocolate Cone", "icon": "🍦", "category": "icecream", "base_price": 40},
-    {"id": 50, "name": "Cornetto Strawberry Cone", "icon": "🍦", "category": "icecream", "base_price": 40},
-    {"id": 51, "name": "Cornetto Butterscotch Cone", "icon": "🍦", "category": "icecream", "base_price": 42},
-
-    {"id": 52, "name": "Magnum Chocolate Ice Cream Bar", "icon": "🍦", "category": "icecream", "base_price": 80},
-
+    
     {"id": 53, "name": "Magnum Almond Ice Cream Bar", "icon": "🍦", "category": "icecream", "base_price": 85},
 
     {"id": 54, "name": "Havmor Belgian Chocolate Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 275},
