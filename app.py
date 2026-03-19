@@ -137,7 +137,7 @@ ITEMS = [
     {"id": 97, "name": "Toilet Paper Roll", "icon": "🧻", "category": "cleaning", "base_price": 60},
     {"id": 98, "name": "Floor Cleaner 1L", "icon": "🧴", "category": "cleaning", "base_price": 150},
     {"id": 99, "name": "Garbage Bags Pack", "icon": "🗑️", "category": "cleaning", "base_price": 70},
-    {"id": 100, "name": "Air Freshener Spray", "icon": "🌸", "category": "cleaning", "base_price": 180}
+    {"id": 100, "name": "Air Freshener Spray", "icon": "🌸", "category": "cleaning", "base_price": 180},
     # Skincare with quantity
 
     {"id": 201, "name": "Himalaya Neem Face Wash 50ml", "icon": "🧴", "category": "skincare", "base_price": 90},
