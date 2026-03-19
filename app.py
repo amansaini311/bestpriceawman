@@ -140,23 +140,23 @@ ITEMS = [
     {"id": 100, "name": "Air Freshener Spray", "icon": "🌸", "category": "cleaning", "base_price": 180}
     # Skincare with quantity
 
-    {"id": 201, "name": "Himalaya Neem Face Wash 50ml", "icon": "🧴", "category": "skincare", "quantity": "50ml", "base_price": 90},
-    {"id": 202, "name": "Himalaya Neem Face Wash 100ml", "icon": "🧴", "category": "skincare", "quantity": "100ml", "base_price": 150},
-    {"id": 203, "name": "Himalaya Neem Face Wash 150ml", "icon": "🧴", "category": "skincare", "quantity": "150ml", "base_price": 210},
+    {"id": 201, "name": "Himalaya Neem Face Wash 50ml", "icon": "🧴", "category": "skincare", "base_price": 90},
+    {"id": 202, "name": "Himalaya Neem Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 150},
+    {"id": 203, "name": "Himalaya Neem Face Wash 150ml", "icon": "🧴", "category": "skincare", "base_price": 210},
 
-    {"id": 204, "name": "Nivea Soft Moisturising Cream 50ml", "icon": "🧴", "category": "skincare", "quantity": "50ml", "base_price": 95},
-    {"id": 205, "name": "Nivea Soft Moisturising Cream 100ml", "icon": "🧴", "category": "skincare", "quantity": "100ml", "base_price": 150},
-    {"id": 206, "name": "Nivea Soft Moisturising Cream 200ml;", "icon": "🧴", "category": "skincare", "quantity": "200ml", "base_price": 290},
+    {"id": 204, "name": "Nivea Soft Moisturising Cream 50ml", "icon": "🧴", "category": "skincare", "base_price": 95},
+    {"id": 205, "name": "Nivea Soft Moisturising Cream 100ml", "icon": "🧴", "category": "skincare", "base_price": 150},
+    {"id": 206, "name": "Nivea Soft Moisturising Cream 200ml;", "icon": "🧴", "category": "skincare", "base_price": 290},
 
-    {"id": 207, "name": "Pond's Super Light Gel 50g", "icon": "🧴", "category": "skincare", "quantity": "50g", "base_price": 110},
-    {"id": 208, "name": "Pond's Super Light Gel 147g", "icon": "🧴", "category": "skincare", "quantity": "147g", "base_price": 280},
+    {"id": 207, "name": "Pond's Super Light Gel 50g", "icon": "🧴", "category": "skincare", "base_price": 110},
+    {"id": 208, "name": "Pond's Super Light Gel 147g", "icon": "🧴", "category": "skincare", "base_price": 280},
 
-    {"id": 209, "name": "Neutrogena Ultra Sheer Sunscreen SPF50+ 30ml ", "icon": "🧴", "category": "skincare", "quantity": "30ml", "base_price": 260},
-    {"id": 210, "name": "Neutrogena Ultra Sheer Sunscreen SPF50+ 50ml ", "icon": "🧴", "category": "skincare", "quantity": "50ml", "base_price": 430},
-    {"id": 211, "name": "Neutrogena Ultra Sheer Sunscreen SPF50+ 88ml ", "icon": "🧴", "category": "skincare", "quantity": "88ml", "base_price": 700},
+    {"id": 209, "name": "Neutrogena Ultra Sheer Sunscreen SPF50+ 30ml ", "icon": "🧴", "category": "skincare", "base_price": 260},
+    {"id": 210, "name": "Neutrogena Ultra Sheer Sunscreen SPF50+ 50ml ", "icon": "🧴", "category": "skincare", "base_price": 430},
+    {"id": 211, "name": "Neutrogena Ultra Sheer Sunscreen SPF50+ 88ml ", "icon": "🧴", "category": "skincare", "base_price": 700},
 
-    {"id": 212, "name": "Cetaphil Gentle Skin Cleanser 125ml", "icon": "🧴", "category": "skincare", "quantity": "125ml", "base_price": 380},
-    {"id": 213, "name": "Cetaphil Gentle Skin Cleanser 250ml", "icon": "🧴", "category": "skincare", "quantity": "250ml", "base_price": 720}]    
+    {"id": 212, "name": "Cetaphil Gentle Skin Cleanser 125ml", "icon": "🧴", "category": "skincare", "base_price": 380},
+    {"id": 213, "name": "Cetaphil Gentle Skin Cleanser 250ml", "icon": "🧴", "category": "skincare", "base_price": 720}]    
 
 PLATFORMS = [
     {
