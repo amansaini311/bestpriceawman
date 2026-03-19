@@ -271,7 +271,7 @@ def compare_prices():
             "base_total": base_total,
             "best_price": best,
             "worst_price": worst,
-            "max_savings": savings,
+            "max_savings": Max savings,
             "num_items": num_items,
             "best_platform": results[0]["name"],
         }
