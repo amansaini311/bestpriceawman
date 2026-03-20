@@ -30,7 +30,38 @@ ITEMS = [
 
     {"id": 26, "name": "Lays Classic 50g", "icon": "🥔", "category": "snacks", "base_price": 20},
     {"id": 27, "name": "Parle-G 200g", "icon": "🍪", "category": "snacks", "base_price": 22},
+    
     {"id": 28, "name": "KitKat 4-finger", "icon": "🍫", "category": "chocolate", "base_price": 55},
+    {"id": 600, "name": "Cadbury Dairy Milk 13g", "icon": "🍫", "category": "chocolate", "base_price": 10},
+    {"id": 601, "name": "Cadbury Dairy Milk 24g", "icon": "🍫", "category": "chocolate", "base_price": 20},
+    {"id": 602, "name": "Cadbury Dairy Milk Silk 60g", "icon": "🍫", "category": "chocolate", "base_price": 90},
+    {"id": 603, "name": "Cadbury Dairy Milk Silk Oreo 60g", "icon": "🍫", "category": "chocolate", "base_price": 100},
+    
+    {"id": 604, "name": "Cadbury Perk Chocolate Wafer 22g", "icon": "🍫", "category": "chocolate", "base_price": 10},
+    {"id": 605, "name": "Cadbury Perk Double Chocolate 44g", "icon": "🍫", "category": "chocolate", "base_price": 20},
+    
+    {"id": 606, "name": "Cadbury 5 Star Chocolate 22g", "icon": "🍫", "category": "chocolate", "base_price": 10},
+    {"id": 607, "name": "Cadbury 5 Star 3D Chocolate 40g", "icon": "🍫", "category": "chocolate", "base_price": 30},
+    
+    {"id": 608, "name": "KitKat 2 Finger Chocolate", "icon": "🍫", "category": "chocolate", "base_price": 10},
+    {"id": 609, "name": "KitKat 4 Finger Chocolate", "icon": "🍫", "category": "chocolate", "base_price": 25},
+    {"id": 610, "name": "KitKat Dessert Delight Chocolate", "icon": "🍫", "category": "chocolate", "base_price": 60},
+    
+    {"id": 611, "name": "Snickers Chocolate Bar 45g", "icon": "🍫", "category": "chocolate", "base_price": 50},
+    {"id": 612, "name": "Snickers Peanut Chocolate 80g", "icon": "🍫", "category": "chocolate", "base_price": 80},
+    
+    {"id": 613, "name": "Mars Chocolate Bar 51g", "icon": "🍫", "category": "chocolate", "base_price": 60},
+    
+    {"id": 614, "name": "Bounty Coconut Chocolate 57g", "icon": "🍫", "category": "chocolate", "base_price": 55},
+    
+    {"id": 615, "name": "Ferrero Rocher 3 Pieces Pack", "icon": "🍫", "category": "chocolate", "base_price": 120},
+    {"id": 616, "name": "Ferrero Rocher 16 Pieces Box", "icon": "🍫", "category": "chocolate", "base_price": 550},
+    
+    {"id": 617, "name": "Kinder Joy Chocolate Boy 20g", "icon": "🍫", "category": "chocolate", "base_price": 50},
+    {"id": 618, "name": "Kinder Joy Chocolate Girl 20g", "icon": "🍫", "category": "chocolate", "base_price": 50},
+    
+    {"id": 619, "name": "Toblerone Swiss Milk Chocolate 100g", "icon": "🍫", "category": "chocolate", "base_price": 200},
+    {"id": 620, "name": "Lindt Excellence Dark Chocolate 100g", "icon": "🍫", "category": "chocolate", "base_price": 350},
 
     {"id": 33, "name": "Nescafe Coffee 50g", "icon": "☕", "category": "beverages", "base_price": 135},
     {"id": 34, "name": "Tata Tea 250g", "icon": "🍵", "category": "beverages", "base_price": 100},
