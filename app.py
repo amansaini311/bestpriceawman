@@ -201,8 +201,43 @@ ITEMS = [
     {"id": 249, "name": "Aroma Magic Aloe Vera Gel 100ml", "icon": "🧴", "category": "skincare", "base_price": 210},
     
     {"id": 250, "name": "Khadi Natural Sandalwood Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 210},
-    {"id": 251, "name": "Khadi Natural Rose Water Toner 210ml", "icon": "🧴", "category": "skincare", "base_price": 190}
-        ]
+    {"id": 251, "name": "Khadi Natural Rose Water Toner 210ml", "icon": "🧴", "category": "skincare", "base_price": 190},
+    {"id": 501, "name": "Aavin Premium Full Cream Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 30},
+    {"id": 502, "name": "Aavin Nice Toned Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 22},
+    {"id": 503, "name": "Aavin Green Magic Standardised Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 24},
+    {"id": 504, "name": "Aavin Delite Homogenised Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 26},
+    
+    {"id": 505, "name": "Aavin Curd 500g", "icon": "🫙", "category": "dairy", "base_price": 35},
+    {"id": 506, "name": "Aavin Premium Curd 200g", "icon": "🫙", "category": "dairy", "base_price": 20},
+    
+    {"id": 507, "name": "Aavin Butter 100g", "icon": "🧈", "category": "dairy", "base_price": 70},
+    {"id": 508, "name": "Aavin Ghee 500ml", "icon": "🧈", "category": "dairy", "base_price": 350},
+    
+    {"id": 509, "name": "Aavin Paneer 200g", "icon": "🧀", "category": "dairy", "base_price": 110},
+    {"id": 510, "name": "Aavin Paneer 500g", "icon": "🧀", "category": "dairy", "base_price": 275},
+    
+    {"id": 511, "name": "Amul Cow Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 30},
+    {"id": 512, "name": "Amul Gold Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 35},
+    {"id": 513, "name": "Amul Slim n Trim Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 26},
+    
+    {"id": 514, "name": "Amul Fresh Paneer 200g", "icon": "🧀", "category": "dairy", "base_price": 90},
+    {"id": 515, "name": "Amul Paneer 1kg", "icon": "🧀", "category": "dairy", "base_price": 390},
+    
+    {"id": 516, "name": "Amul Cheese Cubes 200g", "icon": "🧀", "category": "dairy", "base_price": 120},
+    {"id": 517, "name": "Amul Cheese Block 200g", "icon": "🧀", "category": "dairy", "base_price": 110},
+    
+    {"id": 518, "name": "Milky Mist Paneer 200g", "icon": "🧀", "category": "dairy", "base_price": 85},
+    {"id": 519, "name": "Milky Mist Curd 400g", "icon": "🫙", "category": "dairy", "base_price": 45},
+    {"id": 520, "name": "Milky Mist Cheese Slices", "icon": "🧀", "category": "dairy", "base_price": 130},
+    
+    {"id": 521, "name": "Nandini Toned Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 25},
+    {"id": 522, "name": "Nandini Curd 500g", "icon": "🫙", "category": "dairy", "base_price": 30},
+    {"id": 523, "name": "Nandini Paneer 200g", "icon": "🧀", "category": "dairy", "base_price": 85},
+    
+    {"id": 524, "name": "Mother Dairy Full Cream Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 32},
+    {"id": 525, "name": "Mother Dairy Paneer 200g", "icon": "🧀", "category": "dairy", "base_price": 95},
+    {"id": 526, "name": "Mother Dairy Butter 100g", "icon": "🧈", "category": "dairy", "base_price": 65}
+            ]
 
 # Platforms
 PLATFORMS = [
