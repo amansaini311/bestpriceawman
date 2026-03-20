@@ -68,7 +68,62 @@ ITEMS = [
 
     {"id": 212, "name": "Cetaphil Gentle Skin Cleanser 125ml", "icon": "🧴", "category": "skincare", "base_price": 380},
     {"id": 213, "name": "Cetaphil Gentle Skin Cleanser 250ml", "icon": "🧴", "category": "skincare", "base_price": 720},
-]
+    {"id": 214, "name": "Clean & Clear Foaming Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 150},
+    {"id": 215, "name": "Clean & Clear Foaming Face Wash 150ml", "icon": "🧴", "category": "skincare", "base_price": 210},
+    
+    {"id": 216, "name": "Garnier Men Turbo Bright Face Wash 100g", "icon": "🧴", "category": "skincare", "base_price": 180},
+    {"id": 217, "name": "Garnier Men Turbo Bright Face Wash 150g", "icon": "🧴", "category": "skincare", "base_price": 240},
+    
+    {"id": 218, "name": "Vaseline Deep Moisture Lotion 200ml", "icon": "🧴", "category": "skincare", "base_price": 280},
+    {"id": 219, "name": "Vaseline Deep Moisture Lotion 400ml", "icon": "🧴", "category": "skincare", "base_price": 520},
+    
+    {"id": 220, "name": "Lakme Peach Milk Moisturiser 120ml", "icon": "🧴", "category": "skincare", "base_price": 210},
+    {"id": 221, "name": "Lakme Peach Milk Moisturiser 200ml", "icon": "🧴", "category": "skincare", "base_price": 340},
+    
+    {"id": 222, "name": "Biotique Bio Honey Gel Face Wash 120ml", "icon": "🧴", "category": "skincare", "base_price": 180},
+    {"id": 223, "name": "Biotique Morning Nectar Moisturiser 120ml", "icon": "🧴", "category": "skincare", "base_price": 220},
+    
+    {"id": 224, "name": "Mamaearth Vitamin C Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 260},
+    {"id": 225, "name": "Mamaearth Ubtan Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 250},
+    
+    {"id": 226, "name": "Minimalist Vitamin C Serum 10% 30ml", "icon": "🧴", "category": "skincare", "base_price": 699},
+    {"id": 227, "name": "Minimalist Niacinamide Serum 10% 30ml", "icon": "🧴", "category": "skincare", "base_price": 599},
+    
+    {"id": 228, "name": "Dot & Key Vitamin C Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 295},
+    {"id": 229, "name": "Dot & Key Watermelon Cooling Gel 50g", "icon": "🧴", "category": "skincare", "base_price": 495},
+    
+    {"id": 230, "name": "Dove Deep Moisture Body Wash 190ml", "icon": "🧴", "category": "skincare", "base_price": 240},
+    {"id": 231, "name": "Dove Deep Moisture Body Wash 400ml", "icon": "🧴", "category": "skincare", "base_price": 480},
+    {"id": 232, "name": "Lotus Herbals Safe Sun Sunscreen SPF50 50g", "icon": "🧴", "category": "skincare", "base_price": 475},
+    {"id": 233, "name": "Lotus Herbals Safe Sun Sunscreen SPF50 100g", "icon": "🧴", "category": "skincare", "base_price": 695},
+    
+    {"id": 234, "name": "VLCC De Tan Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 190},
+    {"id": 235, "name": "VLCC De Tan Scrub 80g", "icon": "🧴", "category": "skincare", "base_price": 225},
+    
+    {"id": 236, "name": "Plum Green Tea Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 345},
+    {"id": 237, "name": "Plum Green Tea Mattifying Moisturizer 50ml", "icon": "🧴", "category": "skincare", "base_price": 470},
+    
+    {"id": 238, "name": "WOW Skin Science Aloe Vera Gel 150ml", "icon": "🧴", "category": "skincare", "base_price": 299},
+    {"id": 239, "name": "WOW Vitamin C Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 320},
+    
+    {"id": 240, "name": "The Derma Co 1% Hyaluronic Sunscreen 50g", "icon": "🧴", "category": "skincare", "base_price": 499},
+    {"id": 241, "name": "The Derma Co Salicylic Acid Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 349},
+    
+    {"id": 242, "name": "Olay Total Effects Day Cream 50g", "icon": "🧴", "category": "skincare", "base_price": 799},
+    {"id": 243, "name": "Olay Natural White Cream 50g", "icon": "🧴", "category": "skincare", "base_price": 699},
+    
+    {"id": 244, "name": "L'Oreal Paris Revitalift Day Cream 50ml", "icon": "🧴", "category": "skincare", "base_price": 999},
+    {"id": 245, "name": "L'Oreal Paris Hyaluron Moisture Cream 50ml", "icon": "🧴", "category": "skincare", "base_price": 849},
+    
+    {"id": 246, "name": "Simple Kind To Skin Refreshing Face Wash 150ml", "icon": "🧴", "category": "skincare", "base_price": 385},
+    {"id": 247, "name": "Simple Hydrating Light Moisturiser 125ml", "icon": "🧴", "category": "skincare", "base_price": 465},
+    
+    {"id": 248, "name": "Aroma Magic Neem & Tea Tree Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 220},
+    {"id": 249, "name": "Aroma Magic Aloe Vera Gel 100ml", "icon": "🧴", "category": "skincare", "base_price": 210},
+    
+    {"id": 250, "name": "Khadi Natural Sandalwood Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 210},
+    {"id": 251, "name": "Khadi Natural Rose Water Toner 210ml", "icon": "🧴", "category": "skincare", "base_price": 190}
+        ]
 
 # Platforms
 PLATFORMS = [
