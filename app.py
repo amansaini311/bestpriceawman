@@ -44,9 +44,88 @@ ITEMS = [
     {"id": 42, "name": "Harpic 500ml", "icon": "🚿", "category": "cleaning", "base_price": 130},
     {"id": 43, "name": "Colgate Toothpaste 150g", "icon": "🪥", "category": "cleaning", "base_price": 95},
     {"id": 44, "name": "Head & Shoulders Shampoo 180ml", "icon": "🧴", "category": "cleaning", "base_price": 160},
+    {"id": 401, "name": "Lizol Citrus Floor Cleaner 500ml", "icon": "🧽", "category": "cleaning", "base_price": 105},
+    {"id": 402, "name": "Lizol Lavender Floor Cleaner 1L", "icon": "🧽", "category": "cleaning", "base_price": 190},
+    {"id": 403, "name": "Lizol Jasmine Floor Cleaner 1L", "icon": "🧽", "category": "cleaning", "base_price": 195},
+    
+    {"id": 404, "name": "Harpic Power Plus Toilet Cleaner 1L", "icon": "🚽", "category": "cleaning", "base_price": 175},
+    {"id": 405, "name": "Harpic Bathroom Cleaner 500ml", "icon": "🚿", "category": "cleaning", "base_price": 120},
+    
+    {"id": 406, "name": "Domex Ocean Fresh Toilet Cleaner 1L", "icon": "🚽", "category": "cleaning", "base_price": 170},
+    {"id": 407, "name": "Domex Lime Fresh Toilet Cleaner 750ml", "icon": "🚽", "category": "cleaning", "base_price": 140},
+    
+    {"id": 408, "name": "Colin Glass Cleaner Spray 500ml", "icon": "🪟", "category": "cleaning", "base_price": 115},
+    {"id": 409, "name": "Colin Lemon Surface Cleaner 500ml", "icon": "🪟", "category": "cleaning", "base_price": 120},
+    
+    {"id": 410, "name": "Vim Dishwash Liquid Lemon 750ml", "icon": "🍽️", "category": "cleaning", "base_price": 160},
+    {"id": 411, "name": "Vim Dishwash Liquid Refill 1L", "icon": "🍽️", "category": "cleaning", "base_price": 180},
+    
+    {"id": 412, "name": "Dettol Antiseptic Liquid 500ml", "icon": "🧴", "category": "cleaning", "base_price": 190},
+    {"id": 413, "name": "Dettol Surface Disinfectant Spray 450ml", "icon": "🧴", "category": "cleaning", "base_price": 210},
+    
+    {"id": 414, "name": "Cif Cream Surface Cleaner 500ml", "icon": "🧽", "category": "cleaning", "base_price": 180},
+    {"id": 415, "name": "Phenyl Floor Cleaner 1L", "icon": "🧽", "category": "cleaning", "base_price": 120},
+    
+    {"id": 416, "name": "Kitchen Degreaser Spray 500ml", "icon": "🧽", "category": "cleaning", "base_price": 160},
+    {"id": 417, "name": "Tap & Tile Cleaner Spray 500ml", "icon": "🚿", "category": "cleaning", "base_price": 150},
+    
+    {"id": 418, "name": "Steel Scrub Pads Pack", "icon": "🧽", "category": "cleaning", "base_price": 40},
+    {"id": 419, "name": "Microfiber Cleaning Cloth Pack", "icon": "🧽", "category": "cleaning", "base_price": 90},
+    {"id": 420, "name": "Floor Wiper", "icon": "🧹", "category": "cleaning", "base_price": 120},
 
     {"id": 45, "name": "Amul Vanilla Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 180},
     {"id": 46, "name": "Amul Butterscotch Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 185},
+    {"id": 301, "name": "Amul Vanilla Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 150},
+    {"id": 302, "name": "Amul Strawberry Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 155},
+    {"id": 303, "name": "Amul Mango Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 160},
+    
+    {"id": 304, "name": "Kwality Walls Cornetto Chocolate Cone", "icon": "🍦", "category": "icecream", "base_price": 45},
+    {"id": 305, "name": "Kwality Walls Cornetto Butterscotch Cone", "icon": "🍦", "category": "icecream", "base_price": 45},
+    {"id": 306, "name": "Kwality Walls Cornetto Double Chocolate", "icon": "🍦", "category": "icecream", "base_price": 50},
+    
+    {"id": 307, "name": "Kwality Walls Magnum Classic Bar", "icon": "🍦", "category": "icecream", "base_price": 90},
+    {"id": 308, "name": "Kwality Walls Magnum Almond Bar", "icon": "🍦", "category": "icecream", "base_price": 95},
+    {"id": 309, "name": "Kwality Walls Magnum Chocolate Truffle", "icon": "🍦", "category": "icecream", "base_price": 100},
+    
+    {"id": 310, "name": "Vadilal American Nuts Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 220},
+    {"id": 311, "name": "Vadilal Rajbhog Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 210},
+    {"id": 312, "name": "Vadilal Chocolate Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 205},
+    
+    {"id": 313, "name": "Mother Dairy Chocolate Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 210},
+    {"id": 314, "name": "Mother Dairy Mango Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 205},
+    {"id": 315, "name": "Mother Dairy Butterscotch Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 215},
+    
+    {"id": 316, "name": "Naturals Tender Coconut Ice Cream 500ml", "icon": "🍦", "category": "icecream", "base_price": 280},
+    {"id": 317, "name": "Naturals Sitaphal Ice Cream 500ml", "icon": "🍦", "category": "icecream", "base_price": 300},
+    {"id": 318, "name": "Naturals Mango Ice Cream 500ml", "icon": "🍦", "category": "icecream", "base_price": 290},
+    
+    {"id": 319, "name": "Havmor Premium Vanilla Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 180},
+    {"id": 320, "name": "Havmor Dry Fruit Malai Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 250},
+    {"id": 321, "name": "Havmor Shahi Kesar Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 300},
+    {"id": 322, "name": "Havmor Nutty Belgian Dark Chocolate Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 285},
+    {"id": 323, "name": "Havmor Mocha Brownie Fudge Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 290},
+    {"id": 324, "name": "Havmor American Mud Cake Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 300},
+    {"id": 325, "name": "Havmor Rajwadi Kulfi Falooda Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 300},
+    {"id": 326, "name": "Havmor Maple Walnut Praline Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 280},
+    {"id": 327, "name": "Havmor Rolled Oats Cranberry Nuts Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 250},
+    {"id": 328, "name": "Havmor Sitafal Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 325},
+    {"id": 329, "name": "Havmor Mahabaleshwar Strawberry Ice Cream 500ml", "icon": "🍦", "category": "icecream", "base_price": 200},
+    {"id": 330, "name": "Havmor Kulfi Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 300},
+    {"id": 331, "name": "Havmor Choco Brownie Ice Cream 750ml", "icon": "🍦", "category": "icecream", "base_price": 260},
+    {"id": 332, "name": "Havmor Hazelnut Chiffon Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 300},
+    {"id": 333, "name": "Amul Rajbhog Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 210},
+    {"id": 334, "name": "Amul Chocolate Magic Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 220},
+    {"id": 335, "name": "Amul Kesar Pista Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 215},
+    
+    {"id": 336, "name": "Vadilal Rajbhog Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 220},
+    {"id": 337, "name": "Vadilal American Nuts Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 225},
+    {"id": 338, "name": "Vadilal Butterscotch Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 210},
+    
+    {"id": 339, "name": "Mother Dairy Cookie Crum Ice Cream 700ml", "icon": "🍦", "category": "icecream", "base_price": 190},
+    {"id": 340, "name": "Mother Dairy Chocolate Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 205},
+    
+    {"id": 341, "name": "Cream Bell Crunchy Butterscotch Ice Cream 700ml", "icon": "🍦", "category": "icecream", "base_price": 230},
+    {"id": 342, "name": "Cream Bell Chocolate Ice Cream 700ml", "icon": "🍦", "category": "icecream", "base_price": 220},
 
     {"id": 100, "name": "Air Freshener Spray", "icon": "🌸", "category": "cleaning", "base_price": 180},
 
