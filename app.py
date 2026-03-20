@@ -91,7 +91,7 @@ ITEMS = [
     {"id": 311, "name": "Vadilal Rajbhog Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 210},
     {"id": 312, "name": "Vadilal Chocolate Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 205},
     
-    {"id": 313, "name": "Mother Dairy Chocolate Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 210},
+  
     {"id": 314, "name": "Mother Dairy Mango Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 205},
     {"id": 315, "name": "Mother Dairy Butterscotch Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 215},
     
@@ -236,8 +236,7 @@ ITEMS = [
     
     {"id": 524, "name": "Mother Dairy Full Cream Milk 500ml", "icon": "🥛", "category": "dairy", "base_price": 32},
     {"id": 525, "name": "Mother Dairy Paneer 200g", "icon": "🧀", "category": "dairy", "base_price": 95},
-    {"id": 526, "name": "Mother Dairy Butter 100g", "icon": "🧈", "category": "dairy", "base_price": 65}
-            ]
+    {"id": 526, "name": "Mother Dairy Butter 100g", "icon": "🧈", "category": "dairy", "base_price": 65}]
 
 # Platforms
 PLATFORMS = [
