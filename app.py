@@ -121,7 +121,12 @@ ITEMS = [
     {"id": 310, "name": "Vadilal American Nuts Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 220},
     {"id": 311, "name": "Vadilal Rajbhog Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 210},
     {"id": 312, "name": "Vadilal Chocolate Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 205},
-    
+    {"id": 302, "name": "Magnum Classic Ice Cream Stick", "icon": "🍦", "category": "icecream", "base_price": 95},
+    {"id": 303, "name": "Magnum Almond Ice Cream Stick", "icon": "🍦", "category": "icecream", "base_price": 100},
+    {"id": 304, "name": "Magnum Chocolate Truffle Ice Cream Stick", "icon": "🍦", "category": "icecream", "base_price": 110},
+    {"id": 305, "name": "Magnum Brownie Ice Cream Stick", "icon": "🍦", "category": "icecream", "base_price": 110},
+    {"id": 306, "name": "Magnum Red Velvet Ice Cream Stick", "icon": "🍦", "category": "icecream", "base_price": 120},
+    {"id": 307, "name": "Magnum Belgian Chocolate Ice Cream Stick", "icon": "🍦", "category": "icecream", "base_price": 120},
   
     {"id": 314, "name": "Mother Dairy Mango Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 205},
     {"id": 315, "name": "Mother Dairy Butterscotch Ice Cream 1L", "icon": "🍦", "category": "icecream", "base_price": 215},
