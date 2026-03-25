@@ -143,7 +143,7 @@ ITEMS = [
     {"id": 202, "name": "Himalaya Neem Face Wash 100ml", "icon": "🧴", "category": "skincare", "base_price": 150},
     {"id": 203, "name": "Himalaya Neem Face Wash 150ml", "icon": "🧴", "category": "skincare", "base_price": 210},
     {"id": 204, "name": "Nivea Soft Moisturising Cream 50ml", "icon": "🧴", "category": "skincare", "base_price": 95},
-    {"id": 205, "name": "Nivea Soft Moisturising Cream 100ml", "icon": "🧴", "category": "skincare", "base_price": 150},
+    {"id": 205, "name": "Nivea Soft Moisturising Cream 100ml", "icon": "🧴", "category": "skincare", "base_price": 220},
     {"id": 206, "name": "Nivea Soft Moisturising Cream 200ml", "icon": "🧴", "category": "skincare", "base_price": 290},
     {"id": 207, "name": "Pond's Super Light Gel 50g", "icon": "🧴", "category": "skincare", "base_price": 110},
     {"id": 208, "name": "Pond's Super Light Gel 147g", "icon": "🧴", "category": "skincare", "base_price": 280},
